@@ -1,0 +1,57 @@
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 75%;
+        width:86%;
+        float: right;
+      
+      }
+       #inf {
+     
+        height: 75%;
+        width:14%;
+        float: left;
+        padding-top: 15px;
+       
+      }
+      
+      #caption{
+          text-align: center;
+          font-size:40px;
+          background-color:#3399ff;
+         
+          color: white;
+          height: 60px;
+    
+       
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+   select {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+a:link, a:visited {
+    background-color:#3399ff ;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+      width: 100px;
+}
+
+
+a:hover, a:active {
+    background-color: #66b3ff;
+  
+}
